@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title> Course tidak ditemukan </title>
+		<div th:replace="fragments/fragment :: links"></div>
+	</head>
+	<body>
+		<div th:replace="fragments/fragment :: header"></div>
+		<h1> Course Tidak Ditemukan </h1>
+		<h3 th:text="'Name = ' + ${name}"> Course Name </h3>
+		<div th:replace="fragments/fragment :: footer"></div>
+	</body>
+</html>
